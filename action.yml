@@ -1,4 +1,4 @@
-name: "kubectl"
+name: "kubectl (namespaced)"
 description: "GitHub Action for interacting with kubectl"
 author: "Temuri Takalandze <me@abgeo.dev>"
 branding:
