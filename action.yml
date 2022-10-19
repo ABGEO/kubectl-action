@@ -1,0 +1,13 @@
+name: "kubectl"
+description: "GitHub Action for interacting with kubectl"
+author: "Temuri Takalandze <me@abgeo.dev>"
+branding:
+  icon: "terminal"
+  color: "blue"
+inputs:
+  args:
+    description: "Arguments for the kubectl command"
+    required: false
+runs:
+  using: "docker"
+  image: "Dockerfile"
